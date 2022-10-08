@@ -10932,6 +10932,22 @@ a.text-dark:focus {
   }
 }
 
+nav {
+  background-color: #55c501;
+}
+
+nav #Navber .navbar-nav .nav-item #post-link {
+  background-color: #367e00;
+  border-radius: 5px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+nav #Navber .navbar-nav .nav-item #register {
+  border: solid 2px white;
+  border-radius: 10px;
+}
+
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
@@ -10946,22 +10962,6 @@ body {
   font-size: 16px;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Hiragino Kaku Gothic ProN, "\30E1\30A4\30EA\30AA", meiryo, sans-serif;
   font-weight: 400;
-}
-
-nav {
-  background-color: #55C501 !important;
-}
-
-nav #Navber .navbar-nav .nav-item #post-link {
-  background-color: #367E00;
-  border-radius: 5px;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-nav #Navber .navbar-nav .nav-item #register {
-  border: solid 2px white;
-  border-radius: 10px;
 }
 
 #login-wrapper {
