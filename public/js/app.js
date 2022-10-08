@@ -52453,7 +52453,11 @@ $(function () {
   $('#markdown_editor_textarea').keyup(function () {
     var html = Object(marked__WEBPACK_IMPORTED_MODULE_0__["marked"])(getHtml($(this).val()));
     $('#markdown_preview').html(html);
-  }); // 比較演算子が &lt; 等になるので置換
+  }); // 個別の記事画面のマークダウンをHTMLに変換する
+
+  var target = $('.item-body');
+  var html = Object(marked__WEBPACK_IMPORTED_MODULE_0__["marked"])(getHtml(target.html()));
+  $('.item-body').html(html); // 比較演算子が &lt; 等になるので置換
 
   function getHtml(html) {
     html = html.replace(/&lt;/g, '<');
